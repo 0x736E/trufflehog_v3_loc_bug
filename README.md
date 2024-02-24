@@ -35,7 +35,7 @@ supplied prefix, in this case that is the _raw secret value_ (result.Raw). The c
 engine calculates the line of code value, it is calculating it from the same line each time regardless of which instance
  of the occurrence that this calculation is intended for.
 
-Previous to TruffleHog version 3.28.0 similar behaviour was first introduced in [v3.4.3 on line 233](https://github.com/trufflesecurity/trufflehog/blob/212aa9ba1e4698807023a1c11be6f9f77bef2a2c/pkg/engine/engine.go#L233)
+Previous to TruffleHog version 3.28.0 similar behaviour was first introduced in [v3.4.3 on line 234](https://github.com/trufflesecurity/trufflehog/blob/212aa9ba1e4698807023a1c11be6f9f77bef2a2c/pkg/engine/engine.go#L234)
 using the [bytes.Split](https://pkg.go.dev/bytes#Split) function:
 
 ![code screenshot 2](./docs/images/code_screenshot_2.png)
