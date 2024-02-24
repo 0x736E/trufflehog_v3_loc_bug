@@ -1,5 +1,7 @@
 # Introduction
-This repository documents a **_line of code calculation bug_** which is present in TruffleHog secrets scanner.
+This repository documents a **_line of code calculation bug_** which is present in TruffleHog secrets scanner, as 
+reported in issue [#2502](https://github.com/trufflesecurity/trufflehog/issues/2502) in the TruffleHog GitHub issue 
+tracker.
 
 ## Description
 When the same secret occurs _multiple times_ in a _contiguous sequence_, TruffleHog incorrectly calculates the line of code 
