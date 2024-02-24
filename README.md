@@ -1,7 +1,9 @@
 # Introduction
-This repository documents a **_line of code calculation bug_** which is present in TruffleHog secrets scanner, as 
-reported in issue [#2502 - Line of code calculation is wrong for sequential identical secrets](https://github.com/trufflesecurity/trufflehog/issues/2502) in the TruffleHog GitHub issue 
-tracker.
+This repository documents **_line of code calculation bugs_** which is present in TruffleHog secrets scanner, as 
+reported in the following issues in the TruffleHog GitHub issue tracker:
+* [#2502 - Line of code calculation is wrong for sequential identical secrets](https://github.com/trufflesecurity/trufflehog/issues/2502)
+* [#2504 - Presence of 'line of code' values are inconsistently presented in results, depending upon the data source configured](https://github.com/trufflesecurity/trufflehog/issues/2504)
+
 
 ## Description
 When the same secret occurs _multiple times_ in a _contiguous sequence_, TruffleHog incorrectly calculates the line of code 
