@@ -1,6 +1,6 @@
 # Introduction
 This repository documents a **_line of code calculation bug_** which is present in TruffleHog secrets scanner, as 
-reported in issue [#2502](https://github.com/trufflesecurity/trufflehog/issues/2502) in the TruffleHog GitHub issue 
+reported in issue [#2502 - Line of code calculation is wrong for sequential identical secrets](https://github.com/trufflesecurity/trufflehog/issues/2502) in the TruffleHog GitHub issue 
 tracker.
 
 ## Description
