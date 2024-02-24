@@ -1,0 +1,8 @@
+detectors:
+  - name: GENERIC_PRIVATE_KEY_WITH_METADATA
+    keywords:
+      - BEGIN
+      - PRIVATE
+      - KEY
+    regex:
+      HOG_TOKEN: '-{5}BEGIN [A-Z]+ PRIVATE KEY-{5} {[a-z\=0-9,\ ]+}'

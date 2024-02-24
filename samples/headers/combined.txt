@@ -1,0 +1,13 @@
+-----BEGIN RSA PRIVATE KEY----- {loc=1, index=1}
+-----BEGIN RSA PRIVATE KEY----- {loc=2, index=2}
+-----BEGIN RSA PRIVATE KEY----- {loc=3, index=3}
+
+-----BEGIN DSA PRIVATE KEY----- {loc=5, index=1}
+-----BEGIN DSA PRIVATE KEY----- {loc=6, index=2}
+-----BEGIN DSA PRIVATE KEY----- {loc=7, index=3}
+
+-----BEGIN RSA PRIVATE KEY----- {loc=9, index=4}
+-----BEGIN DSA PRIVATE KEY----- {loc=10, index=4}
+-----BEGIN RSA PRIVATE KEY----- {loc=11, index=5}
+-----BEGIN DSA PRIVATE KEY----- {loc=12, index=5}
+
